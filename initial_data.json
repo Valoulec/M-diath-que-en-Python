@@ -1,0 +1,248 @@
+[
+{
+    "model": "bibliothecaire.membre",
+    "pk": 1,
+    "fields": {
+        "nom": "Doe",
+        "prenom": "Jonh",
+        "phone": "0645684635",
+        "email": "doe.jonh@gmail.com",
+        "bloque": false
+    }
+},
+{
+    "model": "bibliothecaire.membre",
+    "pk": 2,
+    "fields": {
+        "nom": "Dupont",
+        "prenom": "Pierre",
+        "phone": "0745625845",
+        "email": "Dupont@gmail.com",
+        "bloque": false
+    }
+},
+{
+    "model": "bibliothecaire.membre",
+    "pk": 3,
+    "fields": {
+        "nom": "Lachaise",
+        "prenom": "Norbert",
+        "phone": "0746756321",
+        "email": "Norbert@gmail.com",
+        "bloque": true
+    }
+},
+{
+    "model": "bibliothecaire.membre",
+    "pk": 4,
+    "fields": {
+        "nom": "Debout",
+        "prenom": "Paul",
+        "phone": "0654824425",
+        "email": "debout.paul@gmail.com",
+        "bloque": false
+    }
+},
+{
+    "model": "bibliothecaire.membre",
+    "pk": 5,
+    "fields": {
+        "nom": "Surdelle",
+        "prenom": "Léa",
+        "phone": "0654792348",
+        "email": "surdelle@gmail.com",
+        "bloque": false
+    }
+},
+{
+    "model": "bibliothecaire.media",
+    "pk": 1,
+    "fields": {
+        "titre": "3 (trois) Souhaits (1) : L'Assassin et la lampe",
+        "auteur_realisateur_artiste": "Gabella, Mathieu (1976 - ...)",
+        "type_media": "livre",
+        "disponible": true,
+        "image": "media_images/108313_c.jpg",
+        "description": "Le Moyen Âge, quelque part en Orient... Un jeune homme meurt... et ressuscite. Il était un haschischin, un tueur surentraîné. Il est devenu un djinn. Un génie, enfermé dans une lampe... Pour l’éternité ? Pas si sûr. Car il peut peut-être se libérer. S’il ne veut pas rester prisonnier de la lampe jusqu’à la fin des temps, il devra accomplir trois missions. Trois possibilités de découvrir ses pouvoirs et leurs limites. Trois aventures pour découvrir un monde nouveau, celui des Mille et une Nuits. Trois occasions d’explorer ses mystères et sa noirceur… Il devra atteindre les trois objectifs que son maître va lui fixer. Ses trois souhaits. Une nouvelle approche de l’univers des Mille et Une Nuits par deux auteurs férus de cinéma d’action et de jeux vidéo."
+ }
+},
+{
+    "model": "bibliothecaire.media",
+    "pk": 2,
+    "fields": {
+        "titre": "3 (trois) Souhaits (2) : La cité aux mille colonnes",
+        "auteur_realisateur_artiste": "Gabella, Mathieu (1976 - ...)",
+        "type_media": "livre",
+        "disponible": true,
+        "image": "media_images/150592_c.jpg",
+        "description":"Pour le Kabyle enfermé dans la lampe, voici enfin venu le deuxième vœu. On le lui a promis : une fois qu'il aura exaucé trois souhaits, il sera libre. Sa nouvelle mission est d'aller dans la ville mythique d'Iram retrouver le chef des Golems, afin de savoir qui utilise la lampe pour tenter d'assassiner son nouveau maître, Aladin. D'abord dépassé par les événements qu'il a traversés depuis sa mort, il commence à s'habituer à cette réalité dissimulée au regard des simples mortels. Un monde où les contes des Mille et une Nuits prennent vie, où les djinns sont partout, où les tapis volent, et où ses compagnons ont pour nom Ali Baba, Shéhérazade, Aladin ou Simbad… Une approche moderne et dynamique qui renouvelle des personnages mythiques !"
+  }
+},
+{
+    "model": "bibliothecaire.media",
+    "pk": 3,
+    "fields": {
+        "titre": "3 (trois) Souhaits (3) : La tombe de Salomon",
+        "auteur_realisateur_artiste": "Gabella, Mathieu (1976 - ...)",
+        "type_media": "livre",
+        "disponible": true,
+        "image": "media_images/Couv_188851.jpg",
+        "description": "Les mille et une nuits, sombres et violentes Manipulé par des djinns avides de pouvoir, perdant la mémoire au fur et à mesure qu'il utilise ses dons, le Kabyle n'a que peu de chances de sortir de la Lampe... Il va toutefois trouver une aide inattendue : celle du père de Sinbad, piégé lui aussi par son propre fils et ses amis. Car, comme l'ont découvert Sinbad, Aladin, Ali Baba et Shéhérazade, on n'est libre que quand les autres sont asservis : il est temps de renverser les rôles, et de prendre le pouvoir. Il reste au Kabyle encore un vœu à exaucer, une chance de se venger de ses maîtres... Dernier épisode d'une saga où les contes des Mille et Une Nuits reprennent vie... Une approche moderne et dynamique qui renouvelle des personnages mythiques !"
+  }
+},
+{
+    "model": "bibliothecaire.media",
+    "pk": 4,
+    "fields": {
+        "titre": "Cabane",
+        "auteur_realisateur_artiste": "Quentin, Abel (1985 - ...)",
+        "type_media": "livre",
+        "disponible": true,
+        "image": "media_images/3Iia05Ja8SsHUuMyTbL7v2vDrHLcpmF_wme1c6pXWu6cTiElvMlzgg-cover-medium.jpg",
+        "description": "Berkeley, 1973. Département de dynamique des systèmes. Quatre jeunes chercheurs mettent les dernières touches au rapport qui va changer leur vie. Les résultats de l'IBM 360, alias « Gros Bébé », sont sans appel : si la croissance industrielle et démographique ne ralentit pas, le monde tel qu'on le connaît s'effondrera au cours du XXIe siècle. Au sein de l'équipe, chacun réagit selon son tempérament ; le couple d'Américains, Mildred et Eugene Dundee, décide de monter sur le ring pour alerter l'opinion ; le Français Paul Quérillot songe à sa carrière et rêve de vivre vite ; et l'énigmatique Johannes Gudsonn, le Norvégien, surdoué des maths ? Gudsonn, on ne sait pas trop. Certains disent qu'il ..."
+  }
+},
+{
+    "model": "bibliothecaire.media",
+    "pk": 5,
+    "fields": {
+        "titre": "100 chansons et comptines : À l'école maternelle",
+        "auteur_realisateur_artiste": "Pohl, Francine",
+        "type_media": "cd",
+        "disponible": true,
+        "image": "media_images/51m3RdJfSnL._SL160_.jpg",
+        "description": "100 tubes pour les enfants de 2 à 6 ans, incontournables des écoles maternelles : La Sorcière Grabouilla, Mon Ecole en pain d'épices, etc..."
+ }
+},
+{
+    "model": "bibliothecaire.media",
+    "pk": 6,
+    "fields": {
+        "titre": "100 hits summer 2022",
+        "auteur_realisateur_artiste": "plusieurs chanteurs",
+        "type_media": "cd",
+        "disponible": true,
+        "image": "media_images/81cEV0dHLgL._SX522_.jpg",
+        "description":"Contenu structuré Prends ma main / Gims & Vitaa Beau-papa / Vianney Respire encore / Clara Luciani Ma p'tite étoile / Hatik Un homme / Jérémy Frérot Fumette / Camille Lellouche Un jour je marierai un ange / Pierre de Maere Mal de toi / Lyna Mahyem Quelqu'un qui sait / Toma J'ai des doutes / Lynda Mon idole / Janie Sans rancune / Tessae Sans danger / Ambre SLS Je te veux / Alma Couple parfait / Gs & 1000 Kings Toi tu pars / Céphaz Le coup de soleil / Adame Dis, quand reviendras-tu / Joanne O Joan Fais-moi penser / Tom Frager Tout savoir / Ade Été 90 / Therapie Taxi Back on my feet / Kimberose Infini plus1000 / McFly & Carlito Laisse nous faire / Bebew & Elams Bon voyage / Corneille You want my money (Quieres mi plata) / Lilly Wood & the Prick Les beaux jours : ep. 2 / Nuit Incolore L'été est mort / Kalika Out in style / Celestal & Cecilia Krull Sara perche ti amo / Dana Green dream / Stéphane J'suis une galère / Ocevne & Lefa Love grows (Where my Rosemary goes) / Smyles Double je / Novae Lita Ma plus belle aventure / Bleu Toucan Mal barré / Marie-Flore Please please please / Cats On Trees Destination l'amour / Pi Ja Ma Shi-fu-mi / Sayan Ça fait pas mal / Squeezie Incontrolables / PLK & SCH Sorry not sorry / Jok'Air & Tayc New life / Lefa Brûle / Josman & Laylow Concept flou / Georgio avec Coeur de Pirate Allo / Yanns A13 / Simony Polaroïd #2 - sourire / Tsew The Kid ..."
+
+ }
+},
+{
+    "model": "bibliothecaire.media",
+    "pk": 7,
+    "fields": {
+        "titre": "Reputation",
+        "auteur_realisateur_artiste": "Swift, Taylor 1989-...)",
+        "type_media": "cd",
+        "disponible": true,
+        "image": "media_images/61vMk5l4WuL._SL160_.jpg",
+        "description": "Avec 42 millions d'albums vendus dans le monde faisant d'elle la plus grande pop star internationale, Taylor Swift est de retour avec \"Reputation\", son 6ème album studio."
+  }
+},
+{
+    "model": "bibliothecaire.media",
+    "pk": 8,
+    "fields": {
+        "titre": "1001 pattes",
+        "auteur_realisateur_artiste": "Lasseter, John",
+        "type_media": "dvd",
+        "disponible": true,
+        "image": "media_images/2532.jpg",
+        "description": "Résumé : Opprimée par des criquets racketteur, la fourmilière de la princesse Atta ne peut plus faire face. Tilt, inventeur insatiable mais maladroit légendaire, décide d'aller chercher de l'aide. En guise d'aide, il ne trouve qu'une troupe de cirque... Un film d'animation signé Walt Disney."
+}
+},
+{
+    "model": "bibliothecaire.media",
+    "pk": 9,
+    "fields": {
+        "titre": "À couteaux tirés",
+        "auteur_realisateur_artiste": "Johnson, Rian",
+        "type_media": "dvd",
+        "disponible": true,
+        "image": "media_images/1028771.jpg",
+        "description": "Lorsque Harlan Thrombey, célèbre auteur de romans policier est retrouvé mort, toute sa famille est suspecte. Engagé par un mystérieux commanditaire, le détective Benoit Blanc tente d'élucider l'affaire, menant une enquête dont les rebondissements vont s'enchaîner à un rythme effréné jusqu'à la toute dernière minute. - Ce thriller a la saveur d’un Agatha Christie. Et une éblouissante distribution. - Télérama"
+  }
+},
+{
+    "model": "bibliothecaire.media",
+    "pk": 10,
+    "fields": {
+        "titre": "À la croisée des mondes : La boussole d'or",
+        "auteur_realisateur_artiste": "Pullman, Philip (1946 - ...)",
+        "type_media": "dvd",
+        "disponible": true,
+        "image": "media_images/18785459.jpg-c_310_420_x-f_jpg-q_x-xxyxx.jpg",
+        "description": "Lyra, 12 ans, est une orpheline rebelle qui vit à Jordan College, un établissement de l'Université d'Oxford, dans un monde parallèle qui ressemble au nôtre mais qui a évolué de façon un peu différente. Elle a pour compagnon Pantalaimon, son démon, un être capable de prendre de nombreuses formes animales. Le monde de Lyra est en train de changer. L'organisme gouvernemental global, le Magisterium, resserre son emprise sur le peuple. Ses sombres activités l'ont poussé à faire enlever des enfants par les mystérieux Enfourneurs. Parmi les gitans, qui ont perdu beaucoup des leurs, court une rumeur : les enfants sont emmenés dans une station expérimentale quelque part dans le Nord, et on pratique sur eux d'abominables expériences... Lorsque Roger, le meilleur ami de Lyra, disparaît à son tour, la petite fille jure d'aller le chercher, jusqu'au bout du monde s'il le faut..."
+ }
+},
+{
+    "model": "bibliothecaire.media",
+    "pk": 11,
+    "fields": {
+        "titre": "La maison des souris",
+        "auteur_realisateur_artiste": "Théo Rivière",
+        "type_media": "jeu",
+        "disponible": true,
+        "image": "media_images/la-maison-des-souris.jpg",
+        "description": "La maison des souris - Le Jeu, Une famille de petites souris s’est installée chez vous ! Les coquines ne se gênent pas pour vous chiper quelques objets afin de décorer leur mini-maison. En leur absence vous ne résistez pas à l’envie d’aller regarder discrètement à leur fenêtre pour en savoir plus. Où est passée ma bague ? Et la clef ? À quoi peut bien leur servir mon bouton ?"
+}
+},
+{
+    "model": "bibliothecaire.media",
+    "pk": 12,
+    "fields": {
+        "titre": "Monopoly Junior",
+        "auteur_realisateur_artiste": "Hasbro",
+        "type_media": "jeu",
+        "disponible": true,
+        "image": "media_images/monopoly-junior-hasbro-jeu-enfants-691095_798x798.webp",
+        "description": "Voici une version simplifiée du jeu de société culte Monopoly pour permettre aux enfants d'apprendre les règles du jeu le plus connu au monde. Monopoly Junior a le même but que le Monopoly Classique : devenir le joueur le plus riche du jeu en achetant un maximum de propriétés pour faire payer les autres et les mener à la banqueroute. Les enfants auront le choix entre différents pions comme le chien, le chat ou encore le bateau et la voiture et devront se déplacer sur le plateau pour récolter de l'argent et acheter des emplacements. Toutes les cases emblématiques du jeu sont aussi présentes dans cette version simplifiée avec la case visite, la case prison mais aussi la case parc gratuit. Le gros avantage du Monopoly Junior est que les parties sont rapides (moins de 20 minutes) pour permettre aux enfants de bien se concentrer et s'amuser durant ce temps. Lorsqu'un joueur n'a plus d'argent, la partie est finie et il suffit de compter les billets pour savoir qui est le plus riche ! Les enfants vont pouvoir eux aussi jouer à un jeu de stratégie !"
+
+    }
+},
+{
+    "model": "bibliothecaire.media",
+    "pk": 13,
+    "fields": {
+        "titre": "Touché - Coulé - Édition Voyage",
+        "auteur_realisateur_artiste": "Hasbro",
+        "type_media": "jeu",
+        "disponible": true,
+        "image": "media_images/touche-coule-edition-voyage-hasbro-jeu-de-strategie-343907_798x798.webp",
+        "description": "Déploie ta flotte, planifie tes attaques et tiens-toi prêt à faire feu. Annonce les coordonnées de tes tirs pour lancer tes torpilles et marque tes touchés ou tes manqués. Ta mission : détruire la flotte ennemie avant que tous tes vaisseaux ne soient coulés !"
+    }
+},
+{
+    "model": "bibliothecaire.emprunt",
+    "pk": 1,
+    "fields": {
+        "media": 4,
+        "emprunteur": 4,
+        "date_emprunt": "2024-11-14",
+        "date_retour": "2024-11-21",
+        "returner": false
+    }
+},
+{
+    "model": "bibliothecaire.emprunt",
+    "pk": 2,
+    "fields": {
+        "media": 5,
+        "emprunteur": 5,
+        "date_emprunt": "2024-11-14",
+        "date_retour": "2024-11-21",
+        "returner": false
+    }
+},
+{
+    "model": "bibliothecaire.emprunt",
+    "pk": 3,
+    "fields": {
+        "media": 2,
+        "emprunteur": 3,
+        "date_emprunt": "2024-11-11",
+        "date_retour": "2024-11-21",
+        "returner": true
+    }
+}
+]
