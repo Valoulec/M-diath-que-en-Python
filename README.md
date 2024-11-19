@@ -10,8 +10,9 @@ ensuite copier les dossiers du GitHub
 
 
 
-Accéder aux identifiants pour le SUPER UTILISATEUR afin d'accéder à l'interface de gestion de la base de données
+* Accéder aux identifiants pour le SUPER UTILISATEUR afin d'accéder à l'interface de gestion de la base de données
 
-http://127.0.0.1:8000/admin/ Nom d'utilisateur : Admin Mot de passe : 142536Admin
+http://127.0.0.1:8000/admin/ 
+Nom d'utilisateur : Admin 
+Mot de passe : 142536Admin
 
-pngegg(1) pngegg
