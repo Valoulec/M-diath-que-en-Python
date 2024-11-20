@@ -16,3 +16,5 @@ class EmpruntForm(forms.ModelForm):
     class Meta:
         model = Emprunt
         fields = ['media', 'emprunteur','date_emprunt', 'date_retour', 'returner']
+
+

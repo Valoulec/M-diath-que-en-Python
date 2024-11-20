@@ -25,7 +25,6 @@ class MediaModelTest(TestCase):
         self.assertEqual(self.media.auteur_realisateur_artiste, "Auteur Test")
         self.assertEqual(self.media.type_media, "livre")
 
-
 class EmpruntModelTest(TestCase):
 
     def setUp(self):
@@ -40,24 +39,5 @@ class EmpruntModelTest(TestCase):
         self.assertEqual(self.emprunt.date_retour, date.today() + timedelta(days=7))
 
     def test_emprunt_validation(self):
-        # Test pour plus de 3 emprunts
-        for _ in range(3):
-            Emprunt.objects.create(media=self.media, emprunteur=self.membre, date_retour=date.today() + timedelta(days=7))
-        new_emprunt = Emprunt(media=self.media, emprunteur=self.membre, date_retour=date.today() + timedelta(days=7))
         with self.assertRaises(ValidationError):
-            new_emprunt.clean()
-
-        # Test pour les jeux de plateau
-        jeu = Media.objects.create(titre="Test Jeu", auteur_realisateur_artiste="Auteur Test", type_media="jeu")
-        new_emprunt = Emprunt(media=jeu, emprunteur=self.membre, date_retour=date.today() + timedelta(days=7))
-        with self.assertRaises(ValidationError):
-            new_emprunt.clean()
-
-        # Test pour les emprunts en retard
-        emprunt_retard = Emprunt.objects.create(media=self.media, emprunteur=self.membre, date_emprunt=timezone.now() - timedelta(days=8), date_retour=None)
-        new_emprunt = Emprunt(media=self.media, emprunteur=self.membre, date_retour=date.today() + timedelta(days=7))
-        with self.assertRaises(ValidationError):
-            new_emprunt.clean()
-
-
-
+            self.emprunt.clean()

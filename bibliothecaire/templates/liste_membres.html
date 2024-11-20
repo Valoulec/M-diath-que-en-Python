@@ -20,6 +20,7 @@
                 <td>{{ membre.phone }}</td>
                 <td>{{ membre.email }}</td>
                 <td>{{ membre.bloque|yesno:"Oui,Non" }}</td>
+                <td><a href="{% url 'modifier_membre' membre.pk %}">Modifier</a></td>
             </tr>
             {% endfor %}
         </tbody>

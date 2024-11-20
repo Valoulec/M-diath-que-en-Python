@@ -78,3 +78,36 @@ def emprunt_list(request):
     emprunts = Emprunt.objects.all()
     return render(request, 'liste_emprunt.html', {'emprunts': emprunts})
 
+def create_membre(request):
+    if request.method == 'POST':
+        form = MembreForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('liste_membres')
+    else:
+        form = MembreForm()
+    return render(request, 'create_membre.html', {'form': form})
+
+def create_media(request):
+    if request.method == 'POST':
+        form = MediaForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return redirect('liste_medias')  
+    else:
+        form = MediaForm()
+    return render(request, 'create_media.html', {'form': form})
+
+def modifier_membre(request, pk):
+    membre = get_object_or_404(Membre, pk=pk)
+    if request.method == 'POST':
+        form = MembreForm(request.POST, instance=membre)
+        if form.is_valid():
+            form.save()
+            return redirect('liste_membres')
+    else:
+        form = MembreForm(instance=membre)
+    return render(request, 'modifier_membre.html', {'form': form})
+
+
+
