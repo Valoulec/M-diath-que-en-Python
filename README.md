@@ -5,7 +5,7 @@ Ces instructions vous guideront pour faire une copie sur votre machine.
 Pour assurer d'avoir les versions de python a jour
 ensuite copier les dossiers du GitHub
 
-Mise en place
+* Mise en place
 
 Installation et configuration :
 1.	Cloner le dépôt :
