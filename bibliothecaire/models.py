@@ -6,7 +6,7 @@ from django.utils import timezone
 class Membre(models.Model):
     nom = models.CharField(max_length=100)
     prenom = models.CharField(max_length=100, default='DefaultPrenom')
-    phone = models.CharField(max_length=10, default='0746764646')  # Ajoutez une valeur par défaut ici
+    phone = models.CharField(max_length=10, default='0746764646')
     email = models.EmailField(default='example@example.com')
     bloque = models.BooleanField(default=False)
 

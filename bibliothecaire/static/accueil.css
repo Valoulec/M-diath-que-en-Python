@@ -1,4 +1,4 @@
-/* Styles généraux */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
@@ -6,14 +6,14 @@ body {
     padding: 0;
 }
 
-/* Container principal */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Titres */
+
 h1.display-4 {
     font-size: 2.5rem;
     font-weight: 300;
@@ -28,7 +28,6 @@ h2.lead {
     text-align: center;
 }
 
-/* Liste des boutons */
 ul {
     list-style-type: none;
     padding: 0;
@@ -57,11 +56,3 @@ ul li a:hover {
     background-color: #0056b3;
 }
 
-/* Bouton Admin */
-ul li a[href="/admin"] {
-    background-color: #28a745;
-}
-
-ul li a[href="/admin"]:hover {
-    background-color: #218838;
-}

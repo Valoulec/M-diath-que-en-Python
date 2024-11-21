@@ -1,4 +1,4 @@
-/* Styles généraux */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
@@ -6,14 +6,13 @@ body {
     padding: 0;
 }
 
-/* Container principal */
+
 .container {
     max-width: 1500px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Titres */
 h2 {
     font-size: 2rem;
     font-weight: 300;
@@ -21,7 +20,6 @@ h2 {
     text-align: center;
 }
 
-/* Table */
 .table {
     width: 100%;
     margin-bottom: 1rem;
@@ -49,15 +47,13 @@ h2 {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-/* Images */
 .table img {
-    max-width: 100px; /* Ajustez cette valeur selon vos besoins */
+    max-width: 100px;
     height: auto;
     display: block;
     margin: 0 auto;
 }
 
-/* Boutons */
 .btn-primary {
     color: #fff;
     background-color: #007bff;
